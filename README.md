@@ -18,6 +18,8 @@ LiDAR platform for the extraction of morphological data from maize seedlings
 - Ros Melodic
 - OpenCV
 - Open3D
+- PlantCV
+- PyntCloud
 - Arduino IDLE
 
 ## Required Folders, files and packages:
@@ -45,9 +47,14 @@ LiDAR platform for the extraction of morphological data from maize seedlings
 |-- gui_ws/                              # workspace for GUI
     |-- src
         |-- tutorial_kivy                # package for running KivyMD GUI
+            |-- gradient.png             # image for GUI background
+            |-- gradient_2.png           # image for GUI background
+            |-- omicas.png               # omicas project logo for GUI
             |-- ros_gui.kv               # kivy code to configure GUI
+            |-- scripts/
+                |-- simple_gui.py        # Launch of GUI with KivyMD for starting ROS nodes of platform and data collection
+            |-- unibague_icon.png        # University of Ibagué logo for GUI
 |-- kivy_venv/                           # Kivy virtual environment
-    |-- 
 |-- libfreenect/                         # official kinect package 
 |-- s01_seedlings/                       # first sowing of seedlings
     |-- images/                          
@@ -68,6 +75,7 @@ LiDAR platform for the extraction of morphological data from maize seedlings
     |-- images/
     |-- img_results/
     |-- pcd_results/
+        |-- mesh
     |-- point_clouds/
     |-- s02_img_seg.py                   # image segmentation for second sowing of seedlings
     |-- s02_pcd_seg.py                   # point cloud segmentation for second sowing of seedlings
