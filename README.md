@@ -24,6 +24,9 @@ LiDAR platform for the extraction of morphological data from maize seedlings
 
 ## Required Folders, files and packages:
 
+```C://sofka//framework//SofkaFrameworkWebTests//src//main//resources//evidence
+```
+
 ```bash
 /root/user/                              # working path
 
